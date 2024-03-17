@@ -1,0 +1,33 @@
+{
+  "name": "shitmaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:4mo4ever/shitmaker.git"
+  },
+  "website": "https://github.com/4mo4ever/shitmaker.git",
+  "husky": {
+    "hooks": {
+      "post-merge": "hawkeye"
+    }
+  },
+  "hawkeye": {
+    "package.json": [
+      "npm install"
+    ]
+  },
+  "author": "4mo4ever",
+  "license": "ISC",
+  "devDependencies": {
+    "vue": "^3.4.21"
+  },
+  "dependencies": {
+    "vue": "^3.4.21",
+    "noobcash": "^1.0.7"
+  }
+}
