@@ -1,6 +1,6 @@
 {
   "name": "shitmaker",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -29,5 +29,6 @@
   "dependencies": {
     "vue": "^3.4.21",
     "noobcash": "^1.0.7"
-  }
+  },
+  "homepage": "https://github.com/4mo4ever/shitmaker#readme"
 }
